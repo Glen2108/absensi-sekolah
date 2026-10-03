@@ -97,8 +97,9 @@ export default function StudentView({ student, setStudent }) {
             <span className="text-xs font-semibold px-2.5 py-1 bg-sky-500/20 text-sky-400 border border-sky-500/30 rounded-full">
               Sistem Absensi Online
             </span>
+
             <h2 className="text-xl sm:text-2xl font-bold mt-2">
-              {student ? `Halo, ${student.name}!` : 'Selamat Datang, Siswa!'}
+              {student ? `Halo, ${student.name}!` : "Selamat Datang, Siswa!"}
             </h2>
             {student && <p className="text-xs text-slate-300 mt-0.5">Kelas Terdaftar: <strong className="text-white">{student.classGrade}</strong></p>}
           </div>
